@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component should return Login component 1`] = `
+<body>
+  <div>
+    <form>
+      <div
+        class="login"
+      >
+        <div
+          class="login-body-item"
+        >
+          <div
+            class="form-control"
+          >
+            <label
+              class="input-label"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="input"
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              class="input-label"
+              for="password"
+            >
+              password
+            </label>
+            <input
+              class="input"
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            class="checkbox"
+          >
+            <input
+              class="checkbox-input"
+              id="rememberMe"
+              name="rememberMe"
+              type="checkbox"
+            />
+            <label
+              class="checkbox-label"
+              for="rememberMe"
+            >
+              <span
+                class="checkbox-text"
+              >
+                Remember me?
+              </span>
+            </label>
+          </div>
+          <button
+            class="btn-primary mod"
+            type="submit"
+          >
+            Вход
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+`;

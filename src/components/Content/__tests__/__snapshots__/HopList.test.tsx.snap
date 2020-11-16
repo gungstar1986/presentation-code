@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HopList component should render HopList component 1`] = `
+<body>
+  <div>
+    <div>
+      <div>
+        Ahtanum
+      </div>
+      <div>
+        grams
+        : 
+        17.5
+      </div>
+      <div>
+        bitter
+      </div>
+    </div>
+    <div>
+      <div>
+        Chinook
+      </div>
+      <div>
+        grams
+        : 
+        15
+      </div>
+      <div>
+        bitter
+      </div>
+    </div>
+  </div>
+</body>
+`;

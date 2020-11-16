@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BeerImage component should render BeerImage component 1`] = `
+<body>
+  <div>
+    <div
+      class="content-item center"
+    >
+      <div
+        class="media"
+      >
+        <img
+          alt="Punk IPA 2007 - 2010"
+          class="media-content"
+          src="https://images.punkapi.com/v2/192.png"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

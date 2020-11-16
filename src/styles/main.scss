@@ -1,0 +1,22 @@
+// base setup
+@import 'base/base';
+@import 'abstracts/variables';
+
+// components styles
+@import 'components/app';
+@import 'components/form-controls/checkbox';
+@import 'components/form-controls/form';
+@import 'components/form-controls/buttons';
+// to use standard component Formik input styles comment line below
+// @import 'components/form-controls/input';
+
+// layouts styles
+@import 'layout/login';
+@import 'layout/logout';
+@import 'layout/header';
+@import 'layout/navbar';
+@import 'layout/content';
+@import 'components/error-page';
+
+// common styles
+@import 'common/list';

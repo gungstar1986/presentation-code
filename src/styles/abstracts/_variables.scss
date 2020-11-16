@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//colors
+$red: #d9354e;
+$red-light: #E44D64;
+$blue: #4d80e4;
+$blue-dark: #406fc9;
+$slateblue: #787cb5; 
+$blue-light-two: #a7ccff;
+$powderblue: #9db8e6;
+$blue-light: #eaeef7;
+$blue-light-secondary: #eef1f9;
+$grey: #5a5a5a;
+$grey-dark: #212121;
+$grey-light: #bebebe;
+$green: #3ead9a;
+$powdergreen: #79bac1;
+$white: #ffffff;
+$yellow: #fde595;
+$powderyellow: #ffd082;
+$pink: #faa8b5;
+$powderred: #f28787;
+
+//fonts
+$font-family: 'Montserrat', sans-serif;
+$font-size: 14px;
+
+// breakpoints
+$breakpoint-xs-min: 320px;
+$breakpoint-sm-min: 768px;
+$breakpoint-md-min: 980px;
+$breakpoint-rg-min: 1200px;
+$breakpoint-lg-min: 1562px;
+$breakpoint-xl-min: 1680px;
+
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-md-max: $breakpoint-rg-min - 1px;
+$breakpoint-rg-max: $breakpoint-lg-min - 1px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xl-max: 1920px;
+
+//widths
+$containerWidth: 2100px;
+
+// header hight
+$hightHeader: 85px;
+
+// sidebar width
+$sidebarWidthOpen: 325px;
+$sidebarWidthClosed: 120px;
+
+
+// Animation
+$transitionSpeed: .3s !default;

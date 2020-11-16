@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error page render should return Error page 1`] = `
+<body>
+  <div>
+    <div
+      class="main-content-container"
+    >
+      <div
+        class="form-container"
+      >
+        <div
+          class="login"
+        >
+          <div
+            class="not-support-wrapper"
+          >
+            <div
+              class="wrapper"
+            >
+              <div
+                class="warning-icon"
+              />
+              <h1
+                class="title"
+              >
+                Wrong way!
+              </h1>
+              <p
+                class="text"
+              >
+                We're sorry, this page does not exist.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

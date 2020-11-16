@@ -1,0 +1,19 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  &.error {
+    text-transform: none;
+  }
+}

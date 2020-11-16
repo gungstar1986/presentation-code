@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content component should render Content component 1`] = `
+<body>
+  <div>
+    <div
+      class="main-content-container"
+    />
+  </div>
+</body>
+`;

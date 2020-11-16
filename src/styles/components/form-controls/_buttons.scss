@@ -1,0 +1,129 @@
+.btn {
+  display: inline-block;
+  border-radius: 6px;
+  border: none;
+  height: 42px;
+  padding: 0 30px;
+  line-height: 1.27;
+  letter-spacing: 0.23px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all $transitionSpeed;
+  line-height: 2.5;
+  text-align: center;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  .btn-group &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .login & {
+    width: 100%;
+  }
+
+  .calendar-nav & {
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+}
+
+.btn-default {
+  @extend .btn;
+  color: $white;
+  background: $red-light;
+  &:hover {
+    background: $red;
+  }
+}
+
+.btn-secondary {
+  @extend .btn;
+  background-color: transparent;
+  color: $grey;
+  border: 1px solid $grey-light;
+  &:hover {
+    color: $white;
+    background-color: $grey;
+  }
+}
+
+.btn-primary {
+  @extend .btn;
+  background-color: $blue-dark;
+  color: $white;
+  border: 1px solid $blue-dark;
+  &:hover {
+    color: $white;
+    background-color: $blue;
+    border: 1px solid $blue;
+  }
+
+  &.active {
+    background-color: $white;
+    color: $grey-dark;
+    border: 1px solid $white;
+    &:hover {
+      color: $white;
+      background-color: $blue-dark;
+    }
+  }
+
+  &.mod {
+    width: 150px;
+  }
+}
+
+.btn-light {
+  background-color: $white;
+  color: $grey-dark;
+  border: 1px solid $white;
+  &:hover {
+    color: $white;
+    background-color: $blue;
+    border: 1px solid $blue;
+  }
+}
+
+.btn-info {
+  @extend .btn;
+  background-color: $blue-light;
+  color: $grey;
+  border: 1px solid $blue-light;
+  &:hover {
+    color: $white;
+    background-color: $blue;
+    border: 1px solid $blue;
+  }
+}
+
+.btn-group {
+  grid-column-start: span 12;
+
+  .calendar-button & {
+    margin-right: 30px;
+  }
+}
+
+.btn-center {
+  @extend .btn-group;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-end {
+  @extend .btn-group;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-between {
+  @extend .btn-group;
+  display: flex;
+  justify-content: space-between;
+}

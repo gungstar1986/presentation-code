@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index component should render Index component 1`] = `
+<body>
+  <div>
+    <header
+      class="header"
+    >
+      Header
+    </header>
+  </div>
+</body>
+`;

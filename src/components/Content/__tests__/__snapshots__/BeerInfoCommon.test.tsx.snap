@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BeerInfoCommon component should render BeerInfoCommon component 1`] = `
+<body>
+  <div>
+    <div
+      class="content-item center"
+    >
+      <div
+        class="media"
+      >
+        <img
+          alt="Punk IPA 2007 - 2010"
+          class="media-content"
+          src="https://images.punkapi.com/v2/192.png"
+        />
+      </div>
+    </div>
+    <div
+      class="content-item right"
+    >
+      <div
+        class="scrollbar-container ps"
+      >
+        <div
+          class="content-link-container active"
+        >
+          While it may surprise you, this version of Punk IPA isn't dry hopped but still packs a punch! To make the best of the aroma hops make sure they are fully submerged and add them just before knock out for an intense hop hit.
+        </div>
+        <div
+          class="content-link-container active"
+        >
+          Our flagship beer that kick started the craft beer revolution. This is James and Martin's original take on an American IPA, subverted with punchy New Zealand hops. Layered with new world hops to create an all-out riot of grapefruit, pineapple and lychee before a spiky, mouth-puckering bitter finish.
+        </div>
+        <div
+          class="content-link-container active"
+        >
+          04/2007
+        </div>
+        <div
+          class="content-link-container active"
+        >
+          <div
+            class="list"
+          >
+            <span>
+              0
+              : 
+              Spicy carne asada with a pico de gallo sauce
+            </span>
+            <span>
+              1
+              : 
+              Shredded chicken tacos with a mango chilli lime salsa
+            </span>
+            <span>
+              2
+              : 
+              Cheesecake with a passion fruit swirl sauce
+            </span>
+          </div>
+        </div>
+        <div
+          class="content-link-container active"
+        >
+          <div
+            class="list"
+          >
+            <div>
+              <div>
+                Ahtanum
+              </div>
+              <div>
+                grams
+                : 
+                17.5
+              </div>
+              <div>
+                bitter
+              </div>
+            </div>
+            <div>
+              <div>
+                Chinook
+              </div>
+              <div>
+                grams
+                : 
+                15
+              </div>
+              <div>
+                bitter
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="content-link-container active"
+        >
+          liters
+           
+          20
+        </div>
+        <div
+          class="content-link-container active"
+        >
+          liters
+           
+          25
+        </div>
+        <div
+          class="ps__rail-x"
+          style="left: 0px; top: 0px;"
+        >
+          <div
+            class="ps__thumb-x"
+            style="left: 0px; width: 0px;"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="ps__rail-y"
+          style="top: 0px; left: 0px;"
+        >
+          <div
+            class="ps__thumb-y"
+            style="top: 0px; height: 0px;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

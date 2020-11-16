@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cabinet component render should return Cabinet component when user logged id 1`] = `
+<body>
+  <div>
+    <div
+      class="main-content-container"
+    >
+      <div
+        class="form-container"
+      >
+        <div
+          class="login"
+        >
+          <div
+            class="login-body-item"
+          >
+            <div
+              class="logout-item-title"
+            >
+              User Information
+            </div>
+            <div
+              class="logout-item-container"
+            >
+              <div
+                class="logout-item"
+              >
+                Name:
+              </div>
+              <div
+                class="logout-item description"
+              >
+                Example
+              </div>
+            </div>
+            <div
+              class="logout-item-container"
+            >
+              <div
+                class="logout-item"
+              >
+                Email:
+              </div>
+              <div
+                class="logout-item description"
+              >
+                example@example.com
+              </div>
+            </div>
+            <div
+              class="logout-item-container"
+            >
+              <div
+                class="logout-item"
+              >
+                Role:
+              </div>
+              <div
+                class="logout-item description"
+              >
+                User
+              </div>
+            </div>
+            <div
+              class="button-container"
+            >
+              <button
+                class="btn-primary mod"
+                type="button"
+              >
+                Logout
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Cabinet component render should return empty component when user is NOT logged in 1`] = `
+<body>
+  <div />
+</body>
+`;

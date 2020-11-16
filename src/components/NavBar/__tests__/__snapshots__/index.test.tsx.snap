@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component should render Navbar component 1`] = `
+<body>
+  <div>
+    <div
+      class="main-navbar-container"
+    >
+      <div
+        class="navbar-item-container"
+      >
+        <a
+          href="/cabinet"
+        >
+          <span
+            class="navbar-link-text"
+          >
+            CABINET
+          </span>
+        </a>
+      </div>
+      <div
+        class="navbar-item-container"
+      >
+        <a
+          href="/collection"
+        >
+          <span
+            class="navbar-link-text"
+          >
+            CONTENT
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+`;

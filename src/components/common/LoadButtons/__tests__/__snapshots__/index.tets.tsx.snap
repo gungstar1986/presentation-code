@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should return Button component 1`] = `
+<body>
+  <div>
+    <div
+      class="button-container"
+    >
+      <button
+        class="btn-default"
+      >
+        title
+      </button>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FoodPairingList component should render FoodPairingList component 1`] = `
+<body>
+  <div>
+    <span>
+      0
+      : 
+      Spicy carne asada with a pico de gallo sauce
+    </span>
+    <span>
+      1
+      : 
+      Shredded chicken tacos with a mango chilli lime salsa
+    </span>
+    <span>
+      2
+      : 
+      Cheesecake with a passion fruit swirl sauce
+    </span>
+  </div>
+</body>
+`;
